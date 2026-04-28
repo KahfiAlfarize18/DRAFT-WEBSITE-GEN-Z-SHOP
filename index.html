@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GEN Z SHOP - Draft Website</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* GENERAL */
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #ddd;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links span {
+  margin: 0 10px;
+}
+
+/* BOX (WIREFRAME STYLE) */
+.box {
+  background: #ccc;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+/* BUTTON */
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div><strong>GEN Z SHOP</strong></div>
+  <div class="nav-links">
+    <span>Shop</span>
+    <span>New</span>
+    <span>Apparel</span>
+    <span>Accessories</span>
+    <span>Cart</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<section>
+  <h2>HERO SECTION</h2>
+  <div class="hero">
+    <div class="hero-text">
+      <p><strong>Headline:</strong> Step Into Your Style</p>
+      <p>Subtext / Description</p>
+      <button>Shop Now</button>
+    </div>
+    <div class="hero-image box">Hero Image</div>
+  </div>
+</section>
+
+<!-- CATEGORY -->
+<section>
+  <h2>CATEGORY</h2>
+  <div class="grid">
+    <div class="box">Shoes</div>
+    <div class="box">Hoodie</div>
+    <div class="box">T-Shirt</div>
+    <div class="box">Accessories</div>
+  </div>
+</section>
+
+<!-- TRENDING -->
+<section>
+  <h2>TRENDING PRODUCTS</h2>
+  <div class="grid">
+    <div class="box">Product 1</div>
+    <div class="box">Product 2</div>
+    <div class="box">Product 3</div>
+    <div class="box">Product 4</div>
+  </div>
+</section>
+
+<!-- PROMO -->
+<section>
+  <h2>PROMO SECTION</h2>
+  <div class="box">Promo Banner</div>
+  <p>Countdown Timer Placeholder</p>
+  <button>Claim Promo</button>
+</section>
+
+<!-- INSTAGRAM -->
+<section>
+  <h2>INSTAGRAM / GALLERY</h2>
+  <div class="grid">
+    <div class="box">Image</div>
+    <div class="box">Image</div>
+    <div class="box">Image</div>
+    <div class="box">Image</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<section>
+  <h2>FOOTER</h2>
+  <p>About | Shop | Support | Newsletter</p>
+</section>
+
+</body>
+</html>
